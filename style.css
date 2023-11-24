@@ -13,7 +13,6 @@
     flex-direction: column;
   }
 }
-
 /* Styles for screens from 769px to 1024px width (tablets) */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   /* Adjust font size and margins for tablets */
