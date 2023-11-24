@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paycheck Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Paycheck Calculator</h1>
+        <form method="post" action="/calculate" class="mt-4">
+            <div class="form-group">
+                <label for="pay_amount">Hourly pay:</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">$</span>
+                    </div>
+                    <input type="number" name="pay_amount" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="hours_worked">Hours Worked:</label>
+                <input type="number" name="hours_worked" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Calculate</button>
+        </form>
+    </div>
+</body>
+</html>
