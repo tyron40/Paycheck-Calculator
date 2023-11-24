@@ -1,0 +1,38 @@
+/* Default styles for larger screens (desktop) */
+/* You can define your default styles here */
+
+/* Styles for screens up to 768px width (mobile devices) */
+@media screen and (max-width: 768px) {
+  /* Adjust font size and padding for mobile devices */
+  body {
+    font-size: 16px;
+  }
+  
+  /* Modify layout for smaller screens, e.g., stacking elements */
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* Styles for screens from 769px to 1024px width (tablets) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Adjust font size and margins for tablets */
+  body {
+    font-size: 18px;
+  }
+  
+  /* Modify layout for tablets, e.g., changing column widths */
+  .column {
+    width: 50%;
+  }
+}
+
+/* Styles for screens larger than 1024px (desktop) */
+@media screen and (min-width: 1025px) {
+  /* Define styles for larger screens */
+}
+
+/* Set grey background color for the body */
+body {
+  background-color: #f0f0f0; /* Use your preferred shade of grey */
+}
