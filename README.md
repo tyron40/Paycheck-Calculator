@@ -13,6 +13,7 @@ Minimalist design for a streamlined user experience.
 Built with Python and Flask, making it easy to deploy and customize.
 Usage:
 
+To run code type python paycheck_calculator.py
 Enter your hourly pay rate.
 Enter the number of hours you worked.
 Click "Calculate" to see your estimated paycheck.
