@@ -6,7 +6,7 @@ bootstrap = Bootstrap(app)
 
 @app.route('/')
 def index():
-    return render_template('calculate.html')
+    return render_template('index.html')
 
 @app.route('/calculate', methods=['GET', 'POST'])
 def calculate_paycheck():
@@ -28,7 +28,7 @@ def calculate_paycheck():
             result = 'Invalid input. Please enter valid numbers.'
             return render_template('results.html', result=result)
 
-    return render_template('calculate.html')
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
